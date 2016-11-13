@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/AdminLTE.css">
     <link rel="stylesheet" href="css/AdminLTE.min.css">
     <link rel="stylesheet" href="css/skins">
+
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
@@ -56,9 +57,9 @@
                 <li><a href="#home" class="smoothScroll">首页</a></li>
                 <li><a href="#work" class="smoothScroll">仪表盘</a></li>
                 <li><a href="#about" class="smoothScroll">数据集</a></li>
-                <li><a href="#pricing" class="smoothScroll">基础挖掘</a></li>
-                <li><a href="#team" class="smoothScroll">算法库</a></li>
-                <!--<li><a href="#portfolio" class="smoothScroll">可视化</a></li>-->
+                <li><a href="#pricing" class="smoothScroll">基础分析</a></li>
+                <li><a href="#team" class="smoothScroll">算法挖掘</a></li>
+                <!--<li><a href="#portfolio" class="smoothScroll">数据查询</a></li>-->
                 <li><a href="#contact" class="smoothScroll">集群监控</a></li>
             </ul>
         </div>
@@ -112,7 +113,7 @@
                     <!-- small box -->
                     <div class="small-box bg-green">
                         <div class="inner">
-                            <h1>53<sup style="font-size: 20px"></sup></h1>
+                            <h1>0<sup style="font-size: 20px"></sup></h1>
                             <p>今日增量(条)</p>
                         </div>
                         <div class="icon">
@@ -251,24 +252,24 @@
                     <tbody data-ng-repeat="dataset in data.content">
                     <tr>
                         <td>user</td>
-                        <td>用户信息基础数据</td>
+                        <td>微博用户信息基础数据</td>
                         <td>MySQL</td>
-                        <td>2016-07-29</td>
+                        <td>2016-07-11</td>
                         <td>
-                            <a class="btn btn-link btn-xs" target="_blank"
-                               href=""><i class="fa fa-download"></i>下载</a>
+                            <!--<a class="btn btn-link btn-xs" target="_blank"-->
+                               <!--href=""><i class="fa fa-download"></i>下载</a>-->
                             <button class="btn btn-link btn-xs"><span aria-hidden="true"><i
                                     class="fa fa-times"></i>删除</span></button>
                         </td>
                     </tr>
                     <tr>
                         <td>userrelation</td>
-                        <td>用户关系数据</td>
+                        <td>微博用户关系数据</td>
                         <td>MySQL</td>
-                        <td>2016-07-29</td>
+                        <td>2016-07-11</td>
                         <td>
-                            <a class="btn btn-link btn-xs" target="_blank"
-                               href=""><i class="fa fa-download"></i>下载</a>
+                            <!--<a class="btn btn-link btn-xs" target="_blank"-->
+                               <!--href=""><i class="fa fa-download"></i>下载</a>-->
                             <button class="btn btn-link btn-xs"><span aria-hidden="true"><i
                                     class="fa fa-times"></i>删除</span></button>
                         </td>
@@ -277,7 +278,33 @@
                         <td>weibo</td>
                         <td>微博内容数据采集</td>
                         <td>MySQL</td>
-                        <td>2016-07-29</td>
+                        <td>2016-07-11</td>
+                        <td>
+                            <!--<a class="btn btn-link btn-xs" target="_blank"-->
+                               <!--href=""><i class="fa fa-download"></i>下载</a>-->
+                            <button class="btn btn-link btn-xs"><span aria-hidden="true"><i
+                                    class="fa fa-times"></i>删除</span></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>weiborelation</td>
+                        <td>微博微博关系采集</td>
+                        <td>MySQL</td>
+                        <td>2016-07-11</td>
+                        <td>
+                            <!--<a class="btn btn-link btn-xs" target="_blank"-->
+                               <!--href=""><i class="fa fa-download"></i>下载</a>-->
+                            <button class="btn btn-link btn-xs"><span aria-hidden="true"><i
+                                    class="fa fa-times"></i>删除</span></button>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>随机森林数据集4</td>
+                        <td>随机森林数据集4</td>
+                        <td>HDFS</td>
+                        <td>2016-07-11</td>
                         <td>
                             <a class="btn btn-link btn-xs" target="_blank"
                                href=""><i class="fa fa-download"></i>下载</a>
@@ -285,11 +312,38 @@
                                     class="fa fa-times"></i>删除</span></button>
                         </td>
                     </tr>
+
                     <tr>
-                        <td>weiborelation</td>
-                        <td>微博关系采集</td>
-                        <td>MySQL</td>
-                        <td>2016-07-29</td>
+                        <td>hdfs目录的数据集1	</td>
+                        <td>算法数据集2</td>
+                        <td>HDFS</td>
+                        <td>2016-09-18</td>
+                        <td>
+                            <a class="btn btn-link btn-xs" target="_blank"
+                               href=""><i class="fa fa-download"></i>下载</a>
+                            <button class="btn btn-link btn-xs"><span aria-hidden="true"><i
+                                    class="fa fa-times"></i>删除</span></button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>hdfs目录的数据集1	</td>
+                        <td>算法数据集1</td>
+                        <td>HDFS</td>
+                        <td>2016-09-18</td>
+                        <td>
+                            <a class="btn btn-link btn-xs" target="_blank"
+                               href=""><i class="fa fa-download"></i>下载</a>
+                            <button class="btn btn-link btn-xs"><span aria-hidden="true"><i
+                                    class="fa fa-times"></i>删除</span></button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>鸢尾花数据</td>
+                        <td>算法测试数据</td>
+                        <td>HDFS</td>
+                        <td>2016-09-18</td>
                         <td>
                             <a class="btn btn-link btn-xs" target="_blank"
                                href=""><i class="fa fa-download"></i>下载</a>
@@ -314,56 +368,80 @@
             <div class="col-md-12 col-sm-12 text-center">
                 <div class="section-title">
                     <!--<strong>05</strong>-->
-                    <h1 class="heading bold">基础挖掘</h1>
+                    <h1 class="heading bold">基础分析</h1>
                     <hr>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-3 col-sm-6">
                 <div class="plan plan-one wow bounceIn" data-wow-delay="0.3s">
                     <div class="plan_title">
-                        <i class="icon-mobile medium-icon"></i>
-                        <h3>BASIC</h3>
-                        <h2>$150 <span>per year</span></h2>
+                        <i class="icon-map medium-icon"></i>
+                        <h3> <span>  </span></h3>
+
+                        <h3>广东省<span>14.60%</span></h3>
+                        <h3>北京市<span>12.77%</span></h3>
+                        <h3>上海市<span>6.39%</span></h3>
                     </div>
                     <ul>
-                        <li>100 GB Cloud Storage</li>
-                        <li>5 Pro Websites</li>
-                        <li>10 Secured Emails</li>
-                        <li>24-hour Support</li>
+                        <li>微博用户地域分布情况</li>
+
+                        <!--&lt;!&ndash;<li>100 GB Cloud Storage</li>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<li>5 Pro Websites</li>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<li>10 Secured Emails</li>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<li>24-hour Support</li>&ndash;&gt;-->
                     </ul>
-                    <button class="btn btn-warning">Get it now</button>
+                    <button class="btn btn-warning">地域分布</button>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-3 col-sm-6">
                 <div class="plan plan-two wow bounceIn" data-wow-delay="0.3s">
                     <div class="plan_title">
-                        <i class="icon-desktop medium-icon"></i>
-                        <h3>BUSINESS</h3>
-                        <h2>$260 <span>per year</span></h2>
+                        <i class="icon-circle-compass medium-icon"></i>
+                        <h2>男<span>56.51%</span></h2>
+                        <h3>女<span>43.48%</span></h3>
+
                     </div>
                     <ul>
-                        <li>200 GB Cloud Storage</li>
-                        <li>10 Pro Websites</li>
-                        <li>20 Secured Emails</li>
-                        <li>30-Minute Support</li>
+                        <li>微博用户性别分布</li>
+
+                        <!--<li>200 GB Cloud Storage</li>-->
+                        <!--<li>10 Pro Websites</li>-->
+                        <!--<li>20 Secured Emails</li>-->
+                        <!--<li>30-Minute Support</li>-->
                     </ul>
-                    <button class="btn btn-warning">Take this!</button>
+                    <button class="btn btn-warning">性别分布</button>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-3 col-sm-6">
                 <div class="plan plan-three wow bounceIn" data-wow-delay="0.3s">
                     <div class="plan_title">
-                        <i class="icon-cloud medium-icon"></i>
-                        <h3>PROFESSIONAL</h3>
-                        <h2>$380 <span>per year</span></h2>
+                        <i class="icon-calendar medium-icon"></i>
+                        <h3>2011年<span> 34.73%</span></h3>
+                        <h3>2010年<span> 29.87%</span></h3>
+                        <h3>2012年<span> 18.56%</span></h3>                    </div>
+                    <ul>
+                        <li>用户创建时间分布</li>
+
+                    </ul>
+                    <button class="btn btn-warning">创建时间</button>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="plan plan-three wow bounceIn" data-wow-delay="0.3s">
+                    <div class="plan_title">
+                        <i class="icon-focus medium-icon"></i>
+                        <h5>姚晨<span>    76157931</span></h5>
+                        <h5>赵薇<span>    70239973</span></h5>
+                        <h5>何炅<span>    67040816</span></h5>
+                        <h5>郭德纲<span>   61354924</span></h5>
+                        <!--<h4>夢想家林志穎<span>57559171</span></h4>-->
+
                     </div>
                     <ul>
-                        <li>500 GB Cloud Storage</li>
-                        <li>20 Pro Websites</li>
-                        <li>40 Secured Emails</li>
-                        <li>Live Support</li>
+                        <li>粉丝数量排名</li>
+
                     </ul>
-                    <button class="btn btn-warning">Buy Now</button>
+                    <button class="btn btn-warning">粉丝数量</button>
                 </div>
             </div>
         </div>
@@ -371,89 +449,117 @@
 </section>
 
 
-<!-- 算法库 -->
+<!-- 算法挖掘 -->
 <section id="team">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12">
                 <div class="section-title">
                     <!--<strong>03</strong>-->
-                    <h1 class="heading bold">算法库</h1>
+                    <h1 class="heading bold">算法挖掘</h1>
                     <hr>
                 </div>
             </div>
             <!--各个算法-->
+
+            <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="0.9s">
+                <div class="team-wrapper">
+
+                </div>
+            </div>
+
             <!--1-->
             <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="0.9s">
                 <div class="team-wrapper">
                     <img src="images/algo-relation.jpg" class="img-responsive" alt="team img">
-                    <h4>关系分析</h4>
 
-                    <div class="team-des">
-                        <h4>个人关系</h4>
-                        <h3>Senior Designer</h3>
-                        <hr>
-                        <ul class="social-icon">
-                            <li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
-                            <li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
-                            <li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>
-                        </ul>
-                    </div>
+                    <h4></h4>
+
+                    <!--<div class="team-des">-->
+                        <!--<h4>个人关系</h4>-->
+                        <!--<h3>Senior Designer</h3>-->
+                        <!--<hr>-->
+                        <!--<ul class="social-icon">-->
+                            <!--<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>-->
+                            <!--<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>-->
+                            <!--<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>-->
+                        <!--</ul>-->
+                    <!--</div>-->
+                </div>
+                <div class="plan plan-one wow bounceIn" data-wow-delay="0.3s">
+                    <button class="btn btn-warning">关系分析</button>
                 </div>
             </div>
             <!--2-->
-            <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="1.3s">
-                <div class="team-wrapper">
-                    <img src="images/algo-influence.jpg" class="img-responsive" alt="team img">
-                    <h4>影响力分析</h4>
+            <!--<div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="1.3s">-->
+                <!--<div class="team-wrapper">-->
+                    <!--<img src="images/algo-influence.jpg" class="img-responsive" alt="team img">-->
+                    <!--<h4></h4>-->
 
-                    <div class="team-des">
-                        <h4>Mary</h4>
-                        <h3>Core Developer</h3>
-                        <hr>
-                        <ul class="social-icon">
-                            <li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
-                            <li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
-                            <li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+                    <!--&lt;!&ndash;<div class="team-des">&ndash;&gt;-->
+                        <!--&lt;!&ndash;<h4>Mary</h4>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<h3>Core Developer</h3>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<hr>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<ul class="social-icon">&ndash;&gt;-->
+                            <!--&lt;!&ndash;<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>&ndash;&gt;-->
+                        <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                <!--</div>-->
+
+
+                <!--<div class="plan plan-one wow bounceIn" data-wow-delay="0.3s">-->
+                    <!--<button class="btn btn-warning">影响力分析</button>-->
+                <!--</div>-->
+            <!--</div>-->
             <!--3-->
-            <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="1.6s">
-                <div class="team-wrapper">
-                    <img src="images/algo-group.jpg" class="img-responsive" alt="team img">
-                    <h4>群体分析</h4>
+            <!--<div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="1.6s">-->
+                <!--<div class="team-wrapper">-->
+                    <!--<img src="images/algo-group.jpg" class="img-responsive" alt="team img">-->
+                    <!--<h4></h4>-->
 
-                    <div class="team-des">
-                        <h4>Linda</h4>
-                        <h3>Manager</h3>
-                        <hr>
-                        <ul class="social-icon">
-                            <li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
-                            <li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
-                            <li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+                    <!--&lt;!&ndash;<div class="team-des">&ndash;&gt;-->
+                        <!--&lt;!&ndash;<h4>Linda</h4>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<h3>Manager</h3>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<hr>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<ul class="social-icon">&ndash;&gt;-->
+                            <!--&lt;!&ndash;<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>&ndash;&gt;-->
+                        <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                <!--</div>-->
+
+                <!--<div class="plan plan-one wow bounceIn" data-wow-delay="0.3s">-->
+                    <!--<button class="btn btn-warning">群体分析</button>-->
+                <!--</div>-->
+
+            <!--</div>-->
             <!--4-->
             <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="1.6s">
                 <div class="team-wrapper">
                     <img src="images/algo-topic.jpg" class="img-responsive" alt="team img">
-                    <h4>主题分析</h4>
+                    <h4></h4>
 
-                    <div class="team-des">
-                        <h4>Sandar</h4>
-                        <h3>Accountant</h3>
-                        <hr>
-                        <ul class="social-icon">
-                            <li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
-                            <li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
-                            <li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>
-                        </ul>
-                    </div>
+                    <!--<div class="team-des">-->
+                        <!--<h4>Sandar</h4>-->
+                        <!--<h3>Accountant</h3>-->
+                        <!--<hr>-->
+                        <!--<ul class="social-icon">-->
+                            <!--<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>-->
+                            <!--<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>-->
+                            <!--<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>-->
+                        <!--</ul>-->
+                    <!--</div>-->
+
+
                 </div>
+                <div class="plan plan-one wow bounceIn" data-wow-delay="0.3s">
+                <button class="btn btn-warning">用户分类</button>
+                </div>
+
+
             </div>
         </div>
     </div>
@@ -463,58 +569,62 @@
 <!--<div id="portfolio">-->
     <!--<div class="container">-->
         <!--<div class="row">-->
-            <!--<div class="col-md-12 col-sm-12">-->
-                <!--<div class="section-title">-->
-                    <!--&lt;!&ndash;<strong>04</strong>&ndash;&gt;-->
-                    <!--<h1 class="heading bold">可视化</h1>-->
-                    <!--<hr>-->
-                <!--</div>-->
-                <!--&lt;!&ndash; ISO section &ndash;&gt;-->
-                <!--<div class="iso-section">-->
-                    <!--<ul class="filter-wrapper clearfix">-->
-                        <!--<li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>-->
-                        <!--<li><a href="#" class="opc-main-bg" data-filter=".html">HTML</a></li>-->
-                        <!--<li><a href="#" class="opc-main-bg" data-filter=".photoshop">Photoshop</a></li>-->
-                        <!--<li><a href="#" class="opc-main-bg" data-filter=".wordpress">Wordpress</a></li>-->
-                        <!--<li><a href="#" class="opc-main-bg" data-filter=".mobile">Mobile</a></li>-->
-                    <!--</ul>-->
-                    <!--<div class="iso-box-section wow fadeIn" data-wow-delay="0.9s">-->
-                        <!--<div class="iso-box-wrapper col4-iso-box">-->
+            <!--<div class="col-md-12 col-sm-12 text-center">-->
+                <!--<iframe src="" width="1170" height="837" frameborder="0"-->
+                        <!--scrolling="yes">-->
+                <!--</iframe>-->
 
-                            <!--<div class="iso-box html wordpress mobile col-lg-4 col-md-4 col-sm-6">-->
-                                <!--<a href="images/portfolio-img1.jpg" data-lightbox-gallery="portfolio-gallery"><img-->
-                                        <!--src="images/portfolio-img1.jpg" alt="portfolio img"></a>-->
-                            <!--</div>-->
+                <!--&lt;!&ndash;<div class="section-title">&ndash;&gt;-->
+                    <!--&lt;!&ndash;&lt;!&ndash;<strong>04</strong>&ndash;&gt;&ndash;&gt;-->
+                    <!--&lt;!&ndash;<h1 class="heading bold">数据 查询</h1>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<hr>&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash; ISO section &ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;<div class="iso-section">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<ul class="filter-wrapper clearfix">&ndash;&gt;-->
+                        <!--&lt;!&ndash;<li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<li><a href="#" class="opc-main-bg" data-filter=".html">HTML</a></li>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<li><a href="#" class="opc-main-bg" data-filter=".photoshop">Photoshop</a></li>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<li><a href="#" class="opc-main-bg" data-filter=".wordpress">Wordpress</a></li>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<li><a href="#" class="opc-main-bg" data-filter=".mobile">Mobile</a></li>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<div class="iso-box-section wow fadeIn" data-wow-delay="0.9s">&ndash;&gt;-->
+                        <!--&lt;!&ndash;<div class="iso-box-wrapper col4-iso-box">&ndash;&gt;-->
 
-                            <!--<div class="iso-box wordpress col-lg-4 col-md-4 col-sm-6">-->
-                                <!--<a href="images/portfolio-img2.jpg" data-lightbox-gallery="portfolio-gallery"><img-->
-                                        <!--src="images/portfolio-img2.jpg" alt="portfolio img"></a>-->
-                            <!--</div>-->
+                            <!--&lt;!&ndash;<div class="iso-box html wordpress mobile col-lg-4 col-md-4 col-sm-6">&ndash;&gt;-->
+                                <!--&lt;!&ndash;<a href="images/portfolio-img1.jpg" data-lightbox-gallery="portfolio-gallery"><img&ndash;&gt;-->
+                                        <!--&lt;!&ndash;src="images/portfolio-img1.jpg" alt="portfolio img"></a>&ndash;&gt;-->
+                            <!--&lt;!&ndash;</div>&ndash;&gt;-->
 
-                            <!--<div class="iso-box html mobile col-lg-4 col-md-4 col-sm-6">-->
-                                <!--<a href="images/portfolio-img3.jpg" data-lightbox-gallery="portfolio-gallery"><img-->
-                                        <!--src="images/portfolio-img3.jpg" alt="portfolio img"></a>-->
-                            <!--</div>-->
+                            <!--&lt;!&ndash;<div class="iso-box wordpress col-lg-4 col-md-4 col-sm-6">&ndash;&gt;-->
+                                <!--&lt;!&ndash;<a href="images/portfolio-img2.jpg" data-lightbox-gallery="portfolio-gallery"><img&ndash;&gt;-->
+                                        <!--&lt;!&ndash;src="images/portfolio-img2.jpg" alt="portfolio img"></a>&ndash;&gt;-->
+                            <!--&lt;!&ndash;</div>&ndash;&gt;-->
 
-                            <!--<div class="iso-box wordpress col-lg-4 col-md-4 col-sm-6">-->
-                                <!--<a href="images/portfolio-img4.jpg" data-lightbox-gallery="portfolio-gallery"><img-->
-                                        <!--src="images/portfolio-img4.jpg" alt="portfolio img"></a>-->
-                            <!--</div>-->
+                            <!--&lt;!&ndash;<div class="iso-box html mobile col-lg-4 col-md-4 col-sm-6">&ndash;&gt;-->
+                                <!--&lt;!&ndash;<a href="images/portfolio-img3.jpg" data-lightbox-gallery="portfolio-gallery"><img&ndash;&gt;-->
+                                        <!--&lt;!&ndash;src="images/portfolio-img3.jpg" alt="portfolio img"></a>&ndash;&gt;-->
+                            <!--&lt;!&ndash;</div>&ndash;&gt;-->
 
-                            <!--<div class="iso-box html photoshop col-lg-4 col-md-4 col-sm-6">-->
-                                <!--<a href="images/portfolio-img5.jpg" data-lightbox-gallery="portfolio-gallery"><img-->
-                                        <!--src="images/portfolio-img5.jpg" alt="portfolio img"></a>-->
-                            <!--</div>-->
+                            <!--&lt;!&ndash;<div class="iso-box wordpress col-lg-4 col-md-4 col-sm-6">&ndash;&gt;-->
+                                <!--&lt;!&ndash;<a href="images/portfolio-img4.jpg" data-lightbox-gallery="portfolio-gallery"><img&ndash;&gt;-->
+                                        <!--&lt;!&ndash;src="images/portfolio-img4.jpg" alt="portfolio img"></a>&ndash;&gt;-->
+                            <!--&lt;!&ndash;</div>&ndash;&gt;-->
 
-                            <!--<div class="iso-box photoshop col-lg-4 col-md-4 col-sm-6">-->
-                                <!--<a href="images/portfolio-img6.jpg" data-lightbox-gallery="portfolio-gallery"><img-->
-                                        <!--src="images/portfolio-img6.jpg" alt="portfolio img"></a>-->
-                            <!--</div>-->
+                            <!--&lt;!&ndash;<div class="iso-box html photoshop col-lg-4 col-md-4 col-sm-6">&ndash;&gt;-->
+                                <!--&lt;!&ndash;<a href="images/portfolio-img5.jpg" data-lightbox-gallery="portfolio-gallery"><img&ndash;&gt;-->
+                                        <!--&lt;!&ndash;src="images/portfolio-img5.jpg" alt="portfolio img"></a>&ndash;&gt;-->
+                            <!--&lt;!&ndash;</div>&ndash;&gt;-->
 
-                        <!--</div>-->
-                    <!--</div>-->
+                            <!--&lt;!&ndash;<div class="iso-box photoshop col-lg-4 col-md-4 col-sm-6">&ndash;&gt;-->
+                                <!--&lt;!&ndash;<a href="images/portfolio-img6.jpg" data-lightbox-gallery="portfolio-gallery"><img&ndash;&gt;-->
+                                        <!--&lt;!&ndash;src="images/portfolio-img6.jpg" alt="portfolio img"></a>&ndash;&gt;-->
+                            <!--&lt;!&ndash;</div>&ndash;&gt;-->
 
-                <!--</div>-->
+                        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
             <!--</div>-->
         <!--</div>-->
     <!--</div>-->
@@ -531,7 +641,10 @@
                 <!--<hr>-->
                 <!--</div>-->
 
-                <iframe src="http://172.16.50.80:7180/cmf/home" width="1170" height="837" frameborder="0"
+
+                <!--集群监控-->
+
+                <iframe src="" width="1170" height="837" frameborder="0"
                         scrolling="yes">
                 </iframe>
 
